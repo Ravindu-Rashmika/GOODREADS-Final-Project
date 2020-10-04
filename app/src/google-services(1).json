@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "830598098809",
+    "firebase_url": "https://goodreads-final.firebaseio.com",
+    "project_id": "goodreads-final",
+    "storage_bucket": "goodreads-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830598098809:android:882ffcad1fb8cd563749a8",
+        "android_client_info": {
+          "package_name": "com.example.goodreads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830598098809-uossp0otctn10pdt8u0pkfd286r3or8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsHkmKQHHRPj39V0W7Edbm1_mtEuJMaM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830598098809-uossp0otctn10pdt8u0pkfd286r3or8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GoodReads</string>
+
+    <string name="name">Name</string>
+    <string name="pno">Phone number</string>
+    <string name="pwd1">Password</string>0
+    <string name="create">Create My Account</string>
+
+    <string name="log">Log into My Account</string>
+    <string name="rem">Remember Me</string>
+    <string name="admin">I am an Admin</string>
+    <string name="nadmin">I am not an Admin</string>
+
+    <string name="ent">Entertainment</string>
+    <string name="quote">Quote of the Day</string>
+
+    <string name="topic">Quote of the Day</string>
+    <string name="author"> Created By: TAYLOR SWIFT</string>
+
+    <string name="EmpId">Please Enter Employee Id</string>
+    <string name="EmpName">Please Enter Employee Name</string>
+    <string name="EmpPhone">Please Enter Phone Number</string>
+    <string name="EmpSalary">Please Enter the Salary</string>
+    <string name="btnEsave">Save</string>
+    <string name="btnEshow">Show</string>
+    <string name="btnEupdate">Update</string>
+    <string name="btnEdelete">Delete</string>
+
+</resources>

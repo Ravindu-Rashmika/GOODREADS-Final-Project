@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".AdminVideo">
+
+    <VideoView
+        android:id="@+id/video_view_main"
+        android:backgroundTint="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Video Name"
+        android:textSize="25sp"
+        android:id="@+id/et_video_name"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/vcolor"
+        android:textColor="@android:color/black"
+        android:autoText="true"/>
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:clickable="true"
+        android:onClick="ChooseVideo"
+        android:text="Choose Video"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:clickable="true"
+        android:onClick="ShowVideo"
+        android:text="Show Video"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/input_design"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_upload_main"
+        android:layout_margin="20dp"
+        android:text="Upload"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/holo_green_light"
+        android:visibility="invisible"
+        android:id="@+id/progressBar_main"/>
+
+
+</LinearLayout>
